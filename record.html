@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Medical Record</title>
+    <style>
+        body {
+            font-family: Calibri, Arial, sans-serif
+        }
+        h1 {
+            position: absolute;
+            top: 0px;
+            right: 230px;
+            font-size: 40px;
+        }
+
+        #doctorName {
+            position: absolute;
+            top: 60px;
+            left: 30px;
+            font-size: 20px
+        }
+
+        #hospitalName {
+            position: absolute;
+            top: 60px;
+            right: 40px;
+            font-size: 20px;
+        }
+
+        #patientData {
+            position: absolute;
+            top: 110px;
+            left: 30px;
+            border-style: solid;
+            width: 90%;
+            height: 8%;
+        }
+
+        #patientName {
+            position: absolute;
+            top: 10px;
+            left: 120px;
+            font-size: 12px
+        }
+
+        #patientDOB {
+            position: absolute;
+            top: 10px;
+            left: 270px;
+            font-size: 12px;
+        }
+
+        #patientGender {
+            position: absolute;
+            top: 10px;
+            left: 490px;
+            font-size: 12px
+        }
+
+        #date {
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            font-size: 12px
+        }
+
+        #patientId {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 12px
+        }
+
+        #recordId {
+            position: absolute;
+            top: 50px;
+            left: 200px;
+            font-size: 12px
+        }
+
+        #billingId {
+            position: absolute;
+            top: 50px;
+            left: 300px;
+            font-size: 12px
+        }
+
+        #amountPaid {
+            position: absolute;
+            top: 50px;
+            left: 450px;
+            font-size: 12px
+        }
+
+        #contents {
+            position: absolute;
+            top: 210px;
+            left: 30px;
+            border-style: solid;
+            width: 90%;
+            height: 75%;
+        }
+
+        #symptomText {
+            position: absolute;
+            left: 30px;
+            top: 40px;
+            font-size: 11px
+        }
+
+        #diagnosisText {
+            position: absolute;
+            left:30px;
+            top:230px;
+            font-size:11px;
+        }
+
+        #prescriptionText {
+            position: absolute;
+            left: 30px;
+            top: 430px;
+            font-size: 11px;
+        }
+
+        #commentText {
+            position: absolute;
+            left: 30px;
+            top: 630px;
+            font-size: 11px;
+        }
+
+        #logo {
+            position: absolute;
+            left: 225px;
+            top:500px;
+            opacity:0.2;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>Medical Record</strong></h1>
+    <h2 id="doctorName">Doctor: </h2>
+    <h2 id="hospitalName"></h2>
+    <div id="patientData">
+        <div id="patientId"><strong>Patient ID</strong>:</div>
+        <div id="patientName"><strong>Name</strong>:</div>
+        <div id="patientDOB"><strong>Date of Birth</strong>:</div>
+        <div id="patientGender"><strong>Gender</strong>:</div>
+        <div id="date"><strong>Date of Visit</strong>:</div>
+        <div id="recordId"><strong>Record ID</strong>:</div>
+        <div id="billingId"><strong>Billing ID</strong>:</div>
+        <div id="amountPaid"><strong>Amount Paid</strong>:</div>
+    </div>
+    <div id="contents">
+        <div>
+            <div style="position:absolute;top:10px;left:10px;"><strong>Symptom / Physical Examination</strong></div>
+            <div id="symptomText"></div>
+            <div style="position:absolute;top:200px;left:10px;"><strong>Diagnosis</strong></div>
+            <div id="diagnosisText"></div>
+            <div style="position:absolute;top:400px;left:10px;"><strong>Prescription</strong></div>
+            <div id="prescriptionText"></div>
+            <div style="position:absolute;top:600px;left:10px;"><strong>Comment</strong></div>
+            <div id="commentText"></div>
+        </div>
+    </div>
+    <img id="logo" />
+    <script>
+
+    </script>
+</body>
+</html>
