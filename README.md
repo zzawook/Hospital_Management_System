@@ -1,3 +1,3 @@
-# HMS
+# Hospital Managing System
  
-Hospital Management Software developed as a personal project. Developed using Python, with PyQt for user-interface, and SQLite for data storage.
+Hospital Management Software developed as a personal project in 2019. Developed using Python, with PyQt for user-interface, and SQLite for data storage.
